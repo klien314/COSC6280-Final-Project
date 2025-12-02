@@ -10,3 +10,5 @@ Some modifications were made to the payloads compared to their original:
  - for tree.dd and ffcookies.dd, my DropBox access token was used where asked for; while I believe the access token only had a lifespan or 4 hours and thus would not work now, the token has been removed regardless
 
 The directory PicoDuckyBuilder-main is almost a direct copy of a repository (https://github.com/ryo-yamada/PicoDuckyBuilder), with the only change being to line 117 of windows.py to allow copying of a directory despite the destination having a directory with the same name.
+
+The keylogger.exe program was originally planned to be used during the project, but was eventually cut.  I have included it here for transparancy's sake; a directory named 'logs' must exist within the program's own directory for the keylogger to make logs.
