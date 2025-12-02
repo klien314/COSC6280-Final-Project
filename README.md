@@ -9,6 +9,6 @@ Some modifications were made to the payloads compared to their original:
  - for tree.dd specifically, the "Invoke-RestMethod" at the end of the STRINGLN was altered to use the variable $filePath; originally, the method used the non-existant variable $fileContent
  - for tree.dd and ffcookies.dd, my DropBox access token was used where asked for; while I believe the access token only had a lifespan or 4 hours and thus would not work now, the token has been removed regardless
 
-The directory PicoDuckyBuilder-main is almost a direct copy of a repository (https://github.com/ryo-yamada/PicoDuckyBuilder), with the only change being to line 117 of windows.py to allow copying of a directory despite the destination having a directory with the same name.
+The directory PicoDuckyBuilder-main is almost a direct copy of a repository (https://github.com/ryo-yamada/PicoDuckyBuilder), with the only change being to line 117 of windows.py to allow copying of a directory despite the destination having a directory with the same name.  The README file within should still be accurate.
 
 The keylogger.exe program was originally planned to be used during the project, but was eventually cut.  I have included it here for transparancy's sake; a directory named 'logs' must exist within the program's own directory for the keylogger to make logs.
